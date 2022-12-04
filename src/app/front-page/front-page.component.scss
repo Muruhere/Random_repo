@@ -1,0 +1,51 @@
+
+
+.outer-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 100px;
+    padding-right: 200px;
+}
+.container-box {
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    height: 400px;
+    padding: 30px;
+}
+
+
+.text-fields {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field {
+    padding: 10px;
+    margin: 15px 0;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.input-field::placeholder {
+    font-family: cursive;
+    color: grey;
+}
+
+.input-field:hover {
+    border: none;
+    border-bottom: 2px solid rgb(243, 98, 156);
+}
+
+.next-button {
+    width: 100%;
+    float: right;
+    background-color: #e50914;
+    color: white;
+    border: 1px double;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+}

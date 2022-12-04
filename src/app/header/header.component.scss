@@ -1,0 +1,19 @@
+.navbar {
+    background-color: #2b1a24;
+    height: 50px;
+    color: rgb(211, 196, 196);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+.navbar-items{
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    padding: 20px;
+    padding-left: 40px;
+}
+
+.Home {
+    padding-right: 30px;
+}
